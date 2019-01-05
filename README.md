@@ -1,5 +1,7 @@
 ## JavaScript Refresher
 
+_Cloned from andrewhercules/javascript-refresher_
+
 ### Introduction
 
 After completing the [JavaScript practice problems I found online](http://github.com/andrewhercules/javascript-practice), I decided to recreate [Makers Academy's Ruby Refresher challenge](http://github.com/makersacademy/ruby-refresher) using JavaScript and Jasmine to further consolidate my (re)learning of JavaScript's structure and syntax.
