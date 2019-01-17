@@ -1,7 +1,13 @@
 // Question 1
 
 function selectElementsStartingWithE(array) {
-
+  var results = []
+  array.filter( function(word){
+    if (word[0] === "e") {
+      results.push(word)
+    };
+  });
+  return results; 
 };
 
 // Question 2
@@ -55,5 +61,5 @@ function returnFirstHalfOfString(string) {
 // Question 10
 
 function makeNumberNegative(number) {
-  
+
 };
