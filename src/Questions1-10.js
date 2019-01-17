@@ -15,7 +15,8 @@ function selectElementsStartingWithVowel(array) {
 // Question 3
 
 function removeNullsFromArray(array) {
-
+ results = array.filter(word => word != null);
+ return results;
 };
 
 // Question 4
