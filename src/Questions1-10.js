@@ -1,19 +1,15 @@
 // Question 1
 
 function selectElementsStartingWithE(array) {
-  var results = []
-  array.filter( function(word){
-    if (word[0] === "e") {
-      results.push(word)
-    };
-  });
-  return results; 
+  results = array.filter(word => (word[0] == 'e'))
+  return results;
 };
 
 // Question 2
 
 function selectElementsStartingWithVowel(array) {
-
+  results = array.filter(word => word[0].match(/[aeiou]/));
+  return results;
 };
 
 // Question 3

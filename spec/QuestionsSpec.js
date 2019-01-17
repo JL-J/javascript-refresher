@@ -5,7 +5,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(selectElementsStartingWithE(testArray)).toEqual(['emma', 'ethan', 'elise']);
   });
 
-  xit('2. selectElementsStartingWithVowel: return elements from an array starting with a vowel', function() {
+  it('2. selectElementsStartingWithVowel: return elements from an array starting with a vowel', function() {
     testArray = ['open', 'closed', 'small', 'also', 'ice', 'even'];
     expect(selectElementsStartingWithVowel(testArray)).toEqual(['open', 'also', 'ice', 'even']);
   });
