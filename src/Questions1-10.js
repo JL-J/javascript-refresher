@@ -37,7 +37,7 @@ function isNotFalse(word) {
 // Question 5
 
 function reverseEveryElementInArray(array) {
-
+  return array.map(word => word.split("").reverse().join("")); 
 };
 
 // Question 6

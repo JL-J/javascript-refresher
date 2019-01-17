@@ -20,7 +20,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(removeNullsAndFalseFromArray(testArray)).toEqual([true, 1, 2, 'x']);
   });
 
-  xit('5. reverseEveryElementInArray: return array with each individual string element reversed', function() {
+  it('5. reverseEveryElementInArray: return array with each individual string element reversed', function() {
       testArray = ['coffee', 'tea', 'cake', 'brownie'];
       expect(reverseEveryElementInArray(testArray)).toEqual(['eeffoc', 'aet', 'ekac', 'einworb']);
   });
