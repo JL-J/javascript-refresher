@@ -15,7 +15,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(removeNullsFromArray(testArray)).toEqual([true, false, 1, 2, 'x']);
   });
 
-  xit('4. removeNullsAndFalseFromArray: remove null and false elements and return array', function() {
+  it('4. removeNullsAndFalseFromArray: remove null and false elements and return array', function() {
     testArray = [null, null, true, false, 1, null, 2, false, 'x', null];
     expect(removeNullsAndFalseFromArray(testArray)).toEqual([true, 1, 2, 'x']);
   });

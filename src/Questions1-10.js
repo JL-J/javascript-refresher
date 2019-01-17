@@ -15,15 +15,24 @@ function selectElementsStartingWithVowel(array) {
 // Question 3
 
 function removeNullsFromArray(array) {
- results = array.filter(word => word != null);
+ results = array.filter(isNotNull);
  return results;
 };
+
+function isNotNull(word) {
+  return word != null;
+}
 
 // Question 4
 
 function removeNullsAndFalseFromArray(array) {
-
+  results = array.filter(isNotNull).filter(isNotFalse);
+  return results
 };
+
+function isNotFalse(word) {
+  return word != false;
+}
 
 // Question 5
 
