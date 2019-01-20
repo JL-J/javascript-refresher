@@ -37,31 +37,42 @@ function isNotFalse(word) {
 // Question 5
 
 function reverseEveryElementInArray(array) {
-  return array.map(word => word.split("").reverse().join("")); 
+  return array.map(word => word.split("").reverse().join(""));
 };
 
 // Question 6
 
 function dropFirstThreeElements(array) {
-
+  array.splice(0,3);
+  return array;
 };
 
 // Question 7
 
 function addElementToBeginningOfArray(array, element) {
-
+  array.unshift(element);
+  return array;
 };
 
 // Question 8
 
 function sortArrayByLastLetterOfEachWord(array) {
+   return array.sort(compareLastLetter);
+ };
 
+function compareLastLetter(a, b) {
+  if (a[a.length - 1] > b[b.length - 1])
+    return 1;
+  else if (a[a.length - 1] < b[b.length - 1])
+    return -1;
+  return 0;
 };
 
 // Question 9
 
 function returnFirstHalfOfString(string) {
-
+  halfLength = Math.ceil(string.length / 2)
+  return string.split('').splice(0, halfLength).join("")
 };
 
 // Question 10
