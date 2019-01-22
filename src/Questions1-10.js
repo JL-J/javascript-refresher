@@ -78,5 +78,9 @@ function returnFirstHalfOfString(string) {
 // Question 10
 
 function makeNumberNegative(number) {
-
+  if (number > 0) {
+    return number * -1;
+  } else {
+    return number; 
+  }
 };

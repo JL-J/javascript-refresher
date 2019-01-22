@@ -46,7 +46,7 @@ describe('JavaScript Refresher Questions', function() {
       expect(returnFirstHalfOfString('water')).toEqual('wat');
   });
 
-  xit('10. makeNumberNegative: convert positive (or negative) number to a negative number', function() {
+  it('10. makeNumberNegative: convert positive (or negative) number to a negative number', function() {
     expect(makeNumberNegative(5)).toEqual(-5);
     expect(makeNumberNegative(-3)).toEqual(-3);
   });
